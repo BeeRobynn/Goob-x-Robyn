@@ -331,9 +331,9 @@
             scale: 1.6
           damage:
             groups: # Goobstation - Cryo rebalance
-              Airloss: -3
-              Brute: -3
-              Burn: -3
+              Airloss: -9
+              Brute: -9
+              Burn: -9
         - !type:GenericStatusEffect # Mono edit
           conditions:
           - !type:OrganType #
