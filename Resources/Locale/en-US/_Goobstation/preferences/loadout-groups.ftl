@@ -71,3 +71,6 @@ loadout-group-virologist-id = Virologist ID
 
 #RadioHost
 loadout-group-radiohost-jumpsuit = Shirt
+
+# Socks
+loadout-group-socks = Socks

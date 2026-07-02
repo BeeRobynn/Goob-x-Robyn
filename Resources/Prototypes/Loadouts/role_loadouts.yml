@@ -134,6 +134,7 @@
   - CaptainEnvirosuit
   - CaptainEnvirogloves
   - CaptainGloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobHeadOfPersonnel
@@ -154,6 +155,7 @@
   - HoPEnvirosuit
   - HoPEnvirogloves
   - HoPGloves
+  - Socks # Goobstation - Socks
 # Silicons
 - type: roleLoadout
   id: JobBorg
@@ -186,6 +188,7 @@
   - AssistantEnvirohelm
   - AssistantEnvirosuit
   - AssistantEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobBartender
@@ -204,6 +207,7 @@
   - BartenderEnvirohelm
   - BartenderEnvirosuit
   - BartenderEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobServiceWorker
@@ -220,6 +224,7 @@
   - ServiceWorkerEnvirohelm
   - ServiceWorkerEnvirosuit
   - ServiceWorkerEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobChef
@@ -239,6 +244,7 @@
   - ChefEnvirohelm
   - ChefEnvirosuit
   - ChefEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobLibrarian
@@ -255,6 +261,7 @@
   - LibrarianEnvirohelm
   - LibrarianEnvirosuit
   - LibrarianEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobLawyer
@@ -272,6 +279,7 @@
   - LawyerEnvirohelm
   - LawyerEnvirosuit
   - LawyerEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobChaplain
@@ -292,6 +300,7 @@
   - ChaplainEnvirohelm
   - ChaplainEnvirosuit
   - ChaplainEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobJanitor
@@ -312,6 +321,7 @@
   - JanitorEnvirohelm
   - JanitorEnvirosuit
   - JanitorEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobBotanist
@@ -330,6 +340,7 @@
   - BotanistEnvirohelm
   - BotanistEnvirosuit
   - BotanistEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobClown
@@ -349,6 +360,7 @@
   - ClownEnvirohelm
   - ClownEnvirosuit
   - ClownEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobMime
@@ -370,6 +382,7 @@
   - MimeEnvirosuit
   - MimeEnvirogloves
   - MimeGloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobMusician
@@ -388,6 +401,7 @@
   - MusicianEnvirohelm
   - MusicianEnvirosuit
   - MusicianEnvirogloves
+  - Socks # Goobstation - Socks
 
 # Cargo
 - type: roleLoadout
@@ -409,6 +423,7 @@
   - QuartermasterEnvirohelm
   - QuartermasterEnvirosuit
   - QuartermasterEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobCargoTechnician
@@ -428,6 +443,7 @@
   - CargoTechnicianEnvirohelm
   - CargoTechnicianEnvirosuit
   - CargoTechnicianEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobSalvageSpecialist
@@ -447,6 +463,7 @@
   - SalvageEnvirohelm
   - SalvageEnvirosuit
   - SalvageEnvirogloves
+  - Socks # Goobstation - Socks
 
 # Engineering
 - type: roleLoadout
@@ -467,6 +484,7 @@
   - ChiefEngineerEnvirohelm
   - ChiefEngineerEnvirosuit
   - ChiefEngineerEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobTechnicalAssistant
@@ -482,6 +500,7 @@
   - TechnicalAssistantEnvirohelm
   - TechnicalAssistantEnvirosuit
   - TechnicalAssistantEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobStationEngineer
@@ -501,6 +520,7 @@
   - StationEngineerEnvirohelm
   - StationEngineerEnvirosuit
   - StationEngineerEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobAtmosphericTechnician
@@ -519,6 +539,7 @@
   - AtmosEnvirohelm
   - AtmosEnvirosuit
   - AtmosEnvirogloves
+  - Socks # Goobstation - Socks
 
 # Science
 - type: roleLoadout
@@ -541,6 +562,7 @@
   - ResearchDirectorEnvirosuit
   - ResearchDirectorEnvirohelm
   - ResearchDirectorEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobScientist
@@ -563,6 +585,7 @@
   - ScientistEnvirohelm
   - ScientistEnvirosuit
   - ScientistEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobResearchAssistant
@@ -579,6 +602,7 @@
   - ResearchAssistantEnvirohelm
   - ResearchAssistantEnvirosuit
   - ResearchAssistantEnvirogloves
+  - Socks # Goobstation - Socks
 
 # Security
 - type: roleLoadout
@@ -602,6 +626,7 @@
   - HeadofSecurityEnvirosuit
   - HeadofSecurityEnvirogloves
   - HeadofSecurityGloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobWarden
@@ -623,6 +648,7 @@
   - WardenEnvirohelm
   - WardenEnvirosuit
   - WardenEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobSecurityOfficer
@@ -645,6 +671,7 @@
   - SecurityOfficerEnvirohelm
   - SecurityOfficerEnvirosuit
   - SecurityOfficerEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobDetective
@@ -665,6 +692,7 @@
   - DetectiveEnvirosuit
   - DetectiveEnvirogloves
   - DetectiveGloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobSecurityCadet
@@ -682,6 +710,7 @@
   - SecurityCadetEnvirohelm
   - SecurityCadetEnvirosuit
   - SecurityCadetEnvirogloves
+  - Socks # Goobstation - Socks
 
 # Medical
 - type: roleLoadout
@@ -705,6 +734,7 @@
   - ChiefMedicalOfficerEnvirohelm
   - ChiefMedicalOfficerEnvirosuit
   - ChiefMedicalOfficerEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobMedicalDoctor
@@ -727,6 +757,7 @@
   - MedicalDoctorEnvirohelm
   - MedicalDoctorEnvirosuit
   - MedicalDoctorEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobMedicalIntern
@@ -743,6 +774,7 @@
   - MedicalInternEnvirohelm
   - MedicalInternEnvirosuit
   - MedicalInternEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobChemist
@@ -763,6 +795,7 @@
   - ChemistEnvirohelm
   - ChemistEnvirosuit
   - ChemistEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobParamedic
@@ -784,6 +817,7 @@
   - ParamedicEnvirohelm
   - ParamedicEnvirosuit
   - ParamedicEnvirogloves
+  - Socks # Goobstation - Socks
 
 # Wildcards
 - type: roleLoadout
@@ -802,6 +836,7 @@
   - ZookeeperEnvirohelm
   - ZookeeperEnvirosuit
   - ZookeeperEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobReporter
@@ -819,6 +854,7 @@
   - ReporterEnvirohelm
   - ReporterEnvirosuit
   - ReporterEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobPsychologist
@@ -835,6 +871,7 @@
   - PsychologistEnvirohelm
   - PsychologistEnvirosuit
   - PsychologistEnvirogloves
+  - Socks # Goobstation - Socks
 
 - type: roleLoadout
   id: JobBoxer
@@ -851,6 +888,7 @@
   # Goobstation - EE Plasmeme Change.
   - BoxerEnvirohelm
   - BoxerEnvirosuit
+  - Socks # Goobstation - Socks
 
 # These loadouts are used for non-crew spawns, like off-station antags and event mobs
 # They will be used without player configuration, thus they will only ever apply what is forced by MinLimit

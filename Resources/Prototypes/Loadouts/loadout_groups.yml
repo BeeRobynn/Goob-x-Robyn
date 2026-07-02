@@ -251,6 +251,18 @@
   - GlassesJamjar
   - GlassesJensen
   - CheapSunglasses # Goobstation
+  
+  #Goobstation - Socks start
+  
+- type: loadoutGroup
+  id: Socks
+  name: loadout-group-socks
+  loadouts:
+  - SocksCoder
+  - SocksBee
+  - SocksWhite
+  - SocksBlack
+  - SocksGreen
 
 - type: loadoutGroup
   id: Animals  # Goobstation

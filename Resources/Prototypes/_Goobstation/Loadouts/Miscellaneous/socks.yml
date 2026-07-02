@@ -1,0 +1,24 @@
+- type: loadout
+  id: SocksWhite
+  equipment:
+    socks: ClothingUnderSocksWhite
+    
+- type: loadout
+  id: SocksBlack
+  equipment:
+    socks: ClothingUnderSocksBlack
+   
+- type: loadout
+  id: SocksGreen
+  equipment:
+    socks: ClothingUnderSocksGreen
+
+- type: loadout
+  id: SocksCoder
+  equipment:
+    socks: ClothingUnderSocksCoder
+    
+- type: loadout
+  id: SocksBee
+  equipment:
+    socks: ClothingUnderSocksBee

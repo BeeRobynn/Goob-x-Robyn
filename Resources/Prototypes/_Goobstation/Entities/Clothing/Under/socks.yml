@@ -1,0 +1,32 @@
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderSocksWhite
+  name: white socks
+  description: A functional pair of white socks.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Under/Socks/whitesocks.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Under/Socks/whitesocks.rsi
+    
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderSocksBlack
+  name: black socks
+  description: A functional pair of black socks. Professional!
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Under/Socks/blacksocks.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Under/Socks/blacksocks.rsi
+    
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderSocksGreen
+  name: green socks
+  description: A functional pair of green socks.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Under/Socks/greensocks.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Under/Socks/greensocks.rsi

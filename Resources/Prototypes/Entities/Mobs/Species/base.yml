@@ -272,14 +272,15 @@
     - map: [ "enum.HumanoidVisualLayers.RLeg" ]
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
     - map: [ "enum.HumanoidVisualLayers.Underwear" ] # Goob 3370
-    - map: [ "enum.HumanoidVisualLayers.Undershirt" ] # Goob 3370
-    - map: ["jumpsuit"]
-    - map: ["enum.HumanoidVisualLayers.LFoot"]
+    - map: [ "enum.HumanoidVisualLayers.Undershirt" ] # Goob 3370  
+    - map: ["enum.HumanoidVisualLayers.LFoot"] # Goobstation - Socks, move LFoot and RFoot below Jumpsuit
     - map: ["enum.HumanoidVisualLayers.RFoot"]
+    - map: [ "socks" ]
+    - map: ["jumpsuit"]
     - map: ["enum.HumanoidVisualLayers.LHand"]
     - map: ["enum.HumanoidVisualLayers.RHand"]
     - map: ["enum.HumanoidVisualLayers.Face"] #Goob 120 - why did we have face on dummy but not basespecies
-    - map: [ "gloves" ]
+    - map: [ "gloves" ] 
     - map: [ "shoes" ]
     - map: [ "ears" ]
     - map: [ "eyes" ]
@@ -619,9 +620,10 @@
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
     - map: [ "enum.HumanoidVisualLayers.Underwear" ] # Goob 3370
     - map: [ "enum.HumanoidVisualLayers.Undershirt" ] # Goob 3370
-    - map: ["jumpsuit"]
     - map: ["enum.HumanoidVisualLayers.LFoot"]
     - map: ["enum.HumanoidVisualLayers.RFoot"]
+    - map: [ "socks" ]
+    - map: ["jumpsuit"]
     - map: ["enum.HumanoidVisualLayers.LHand"]
     - map: ["enum.HumanoidVisualLayers.RHand"]
     - map: ["enum.HumanoidVisualLayers.Handcuffs"]

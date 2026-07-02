@@ -1,0 +1,36 @@
+- type: entity
+  abstract: true
+  parent: Clothing
+  id: ClothingSocksBase
+  components:
+  # Goobstation edit start
+  - type: EmitSoundOnPickup
+    sound:
+      path: /Audio/_Goobstation/Items/handling/generic_small_pickup.ogg
+      params:
+        volume: -5
+  - type: Clothing
+    slots:
+    - SOCKS
+    equipSound:
+      collection: GenericEquip
+      params:
+        volume: -5
+  # Goobstation edit end
+  - type: Sprite
+    state: icon
+  - type: Item
+    size: Normal
+  - type: Food
+    requiresSpecialDigestion: true
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 10
+        reagents:
+        - ReagentId: Fiber
+          Quantity: 10
+  - type: Tag
+    tags:
+    - ClothMade
+    - Recyclable
