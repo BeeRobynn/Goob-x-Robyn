@@ -1438,7 +1438,7 @@
     impactEffect: BulletImpactEffectOrangeDisabler
     damage:
       types:
-        Heat: 30
+        Heat: 8 # Goob - Magnum Rebalance
 
 - type: entity
   name: magnum window-piercing bolt
