@@ -175,41 +175,37 @@
 		"name": "cotton",
 		"directions": 4
 	  },
-	  	  {
-		"name": "longerover",
-		"directions": 4
-	  },
-	  	  {
+	  {
 		"name": "impish",
 		"directions": 4
 	  },
-	  	  {
-		"name": "gloomylonger",
+	  {
+		"name": "gloomyLonger",
 		"directions": 4
 	  },
-	  	  {
+	  {
 		"name": "lila",
 		"directions": 4
 	  },
-	  	  {
-		"name": "longtails",
+	  {
+		"name": "longTails",
 		"directions": 4
 	  },
-	  	  {
-		"name": "strictlong",
+	  {
+		"name": "strictLong",
 		"directions": 4
 	  },
-	  	  {
+	  {
 		"name": "mermaid",
 		"directions": 4
 	  },
-	  	  {
+	  {
 		"name": "shy",
 		"directions": 4
 	  },
-	  	  {
+	  {
 		"name": "twintail",
 		"directions": 4
-	  },
+	  }
     ]
   }

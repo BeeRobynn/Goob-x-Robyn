@@ -334,15 +334,7 @@
   sprites:
     - sprite: _Goobstation/Mobs/Customization/human_hair.rsi
       state: cotton
-      
-- type: marking
-  id: HumanHairLongOverEye
-  bodyPart: Hair
-  markingCategory: Hair
-  sprites:
-    - sprite: _Goobstation/Mobs/Customization/human_hair.rsi
-      state: longerover
-      
+
 - type: marking
   id: HumanHairImpish
   bodyPart: Hair
@@ -357,7 +349,7 @@
   markingCategory: Hair
   sprites:
     - sprite: _Goobstation/Mobs/Customization/human_hair.rsi
-      state: gloomylonger
+      state: gloomyLonger
       
 - type: marking
   id: HumanHairLila
@@ -373,7 +365,7 @@
   markingCategory: Hair
   sprites:
     - sprite: _Goobstation/Mobs/Customization/human_hair.rsi
-      state: longtails
+      state: longTails
       
 - type: marking
   id: HumanHairStrictLong
@@ -381,7 +373,7 @@
   markingCategory: Hair
   sprites:
     - sprite: _Goobstation/Mobs/Customization/human_hair.rsi
-      state: strictlong
+      state: strictLong
       
 - type: marking
   id: HumanHairMermaid
