@@ -30,6 +30,7 @@ public sealed class VentClogRule : StationEventSystem<VentClogRuleComponent>
         // TODO: "safe random" for chems. Right now this includes admin chemicals.
         var allReagents = PrototypeManager.EnumeratePrototypes<ReagentPrototype>()
             .Where(x => !x.Abstract)
+            .Where(x => !x.VentBlacklist)
             .Select(x => new ProtoId<ReagentPrototype>(x.ID)).ToList();
 
         foreach (var (_, transform) in EntityQuery<GasVentPumpComponent, TransformComponent>())
@@ -44,8 +45,7 @@ public sealed class VentClogRule : StationEventSystem<VentClogRuleComponent>
             if (!RobustRandom.Prob(0.33f))
                 continue;
 
-            var pickAny = RobustRandom.Prob(0.05f);
-            var reagent = RobustRandom.Pick(pickAny ? allReagents : component.SafeishVentChemicals);
+            var reagent = RobustRandom.Pick(allReagents);
 
             var weak = component.WeakReagents.Contains(reagent);
             var quantity = weak ? component.WeakReagentQuantity : component.ReagentQuantity;
