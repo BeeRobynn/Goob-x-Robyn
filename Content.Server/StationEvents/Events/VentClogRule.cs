@@ -27,8 +27,10 @@ public sealed class VentClogRule : StationEventSystem<VentClogRuleComponent>
         if (!TryGetRandomStation(out var chosenStation))
             return;
 
+        // TODO: "safe random" for chems. Right now this includes admin chemicals.
         var allReagents = PrototypeManager.EnumeratePrototypes<ReagentPrototype>()
             .Where(x => !x.Abstract)
+            .Where(x => !x.VentBlacklist) /// Goobstation - Vent Clog Blacklist
             .Select(x => new ProtoId<ReagentPrototype>(x.ID)).ToList();
 
         foreach (var (_, transform) in EntityQuery<GasVentPumpComponent, TransformComponent>())
@@ -42,16 +44,18 @@ public sealed class VentClogRule : StationEventSystem<VentClogRuleComponent>
 
             if (!RobustRandom.Prob(0.33f))
                 continue;
-
+            /// Goobstation start - All commented out code between is for Vent Blacklist Changes
             var reagent = RobustRandom.Pick(allReagents);
 
-            var quantity = component.ReagentQuantity;
+            /*var weak = component.WeakReagents.Contains(reagent);*/
+            var quantity = /* weak ? component.WeakReagentQuantity : */component.ReagentQuantity;
             solution.AddReagent(reagent, quantity);
 
             var foamEnt = Spawn(ChemicalReactionSystem.FoamReaction, transform.Coordinates);
-            var spreadAmount = component.Spread;
+            var spreadAmount = /* weak ? component.WeakSpread :*/ component.Spread;
             _smoke.StartSmoke(foamEnt, solution, component.Time, spreadAmount);
             Audio.PlayPvs(component.Sound, transform.Coordinates);
+            /// Goobstation end - All commented out code between is for Vent Blacklist Changes
         }
     }
 }
