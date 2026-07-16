@@ -46,7 +46,7 @@ public sealed class VentClogRule : StationEventSystem<VentClogRuleComponent>
                 continue;
             /// Goobstation start - All commented out code between is for Vent Blacklist Changes
             var pickAny = RobustRandom.Prob(0.05f);
-            var reagent = RobustRandom.Pick(/*pickAny ? */allReagents/* : SafeishVentChemicals*/);
+            var reagent = RobustRandom.Pick(/*pickAny ? */allReagents/* : component.SafeishVentChemicals*/);
 
             /*var weak = component.WeakReagents.Contains(reagent);*/
             var quantity = /* weak ? component.WeakReagentQuantity : */component.ReagentQuantity;

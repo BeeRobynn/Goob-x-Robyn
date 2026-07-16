@@ -10,7 +10,6 @@ namespace Content.Server.StationEvents.Components;
 [RegisterComponent, Access(typeof(VentClogRule))]
 public sealed partial class VentClogRuleComponent : Component
 {
-
     /// <summary>
     /// Somewhat safe chemicals to put in foam that probably won't instantly kill you.
     /// There is a small chance of using any reagent, ignoring this.
