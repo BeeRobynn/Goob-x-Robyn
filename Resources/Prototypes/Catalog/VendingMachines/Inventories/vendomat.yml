@@ -3,6 +3,7 @@
 - type: vendingMachineInventory
   id: VendomatInventory
   startingInventory:
+    ProximitySensor: 2
     RemoteSignaller: 1
     Igniter: 2
     Wirecutter: 2
