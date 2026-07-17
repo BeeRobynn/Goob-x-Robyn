@@ -535,10 +535,10 @@
         Holy: 14
         Blunt: 14
     soundHit:
-      path: /Audio/_Goobstation/Effects/Emotes/slap.ogg
+      path: /Audio/_Goobstation/Effects/slap.ogg
       params:
         volume: 10
-    wideAnimation: WeaponArcThrust
+    wideAnimation: WeaponArcSlash
   - type: Unremoveable
   - type: Nullrod
     DamageOnUntrainedUse:
