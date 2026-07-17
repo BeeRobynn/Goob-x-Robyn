@@ -30,7 +30,6 @@ public sealed class VentClogRule : StationEventSystem<VentClogRuleComponent>
         // TODO: "safe random" for chems. Right now this includes admin chemicals.
         var allReagents = PrototypeManager.EnumeratePrototypes<ReagentPrototype>()
             .Where(x => !x.Abstract)
-            .Where(x => !x.VentBlacklist) /// Goobstation - Vent Clog Blacklist
             .Select(x => new ProtoId<ReagentPrototype>(x.ID)).ToList();
 
         foreach (var (_, transform) in EntityQuery<GasVentPumpComponent, TransformComponent>())
@@ -44,10 +43,10 @@ public sealed class VentClogRule : StationEventSystem<VentClogRuleComponent>
 
             if (!RobustRandom.Prob(0.33f))
                 continue;
-            /// Goobstation start - All commented out code between is for Vent Blacklist Changes
-            var pickAny = RobustRandom.Prob(0.05f);
-            var reagent = RobustRandom.Pick(/*pickAny ? */allReagents/* : component.SafeishVentChemicals*/);
 
+            var pickAny = RobustRandom.Prob(0.25f); /// Goobstation - Vent Clog allchems increase chance
+            var reagent = RobustRandom.Pick(pickAny ? allReagents : component.SafeishVentChemicals);
+            /// Goobstation start - All commented out code between is for Vent Clog allchems increase chance
             /*var weak = component.WeakReagents.Contains(reagent);*/
             var quantity = /* weak ? component.WeakReagentQuantity : */component.ReagentQuantity;
             solution.AddReagent(reagent, quantity);
@@ -56,7 +55,7 @@ public sealed class VentClogRule : StationEventSystem<VentClogRuleComponent>
             var spreadAmount = /* weak ? component.WeakSpread :*/ component.Spread;
             _smoke.StartSmoke(foamEnt, solution, component.Time, spreadAmount);
             Audio.PlayPvs(component.Sound, transform.Coordinates);
-            /// Goobstation end - All commented out code between is for Vent Blacklist Changes
+            /// Goobstation end - All commented out code between is for Vent Clog allchems increase chance
         }
     }
 }

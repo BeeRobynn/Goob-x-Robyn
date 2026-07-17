@@ -182,12 +182,6 @@ namespace Content.Shared.Chemistry.Reagent
         [DataField]
         public bool? WorksOnUnconscious;
 
-        /// <summary>
-        /// Goobstation - Should this reagent be blacklisted from the vent clog station event?
-        /// </summary>
-        [DataField]
-        public bool VentBlacklist;
-
         [DataField]
         public FrozenDictionary<ProtoId<MetabolismGroupPrototype>, ReagentEffectsEntry>? Metabolisms;
 
