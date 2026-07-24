@@ -440,3 +440,18 @@
     defaultStorageOrientation: Vertical
     grid:
     - 0,0,8,1
+  - type: Storage # Should only hold Atmos related shit and basic tools
+    whitelist:
+      tags:
+      - Wirecutter
+      - Crowbar
+      - Screwdriver
+      - Wrench
+      - HolofanProjector
+      - Multitool
+      components:
+      - RCD
+      - RCDAmmo
+      - Welder
+      - TrayScanner
+      - GasAnalyzer
