@@ -424,3 +424,19 @@
               volume: -0.5
         soundStateActivate:
           path: /Audio/_Goobstation/Items/card_swipe.ogg
+
+- type: entity
+  parent: ClothingBeltUtility
+  id: ClothingAtmosBelt
+  name: atmospherics belt
+  description: Holds all the tools needed for a growing atmosian catgirl
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Belt/atmosbelt.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Belt/atmosbelt.rsi
+  - type: Storage
+    maxItemSize: Normal
+    defaultStorageOrientation: Vertical
+    grid:
+    - 0,0,8,1

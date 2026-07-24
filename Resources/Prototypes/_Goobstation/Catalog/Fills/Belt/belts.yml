@@ -260,3 +260,19 @@
     - id: SupermatterGrenade
     - id: SyndieMiniBomb
       amount: 2
+
+- type: entity
+  id: ClothingBeltUtilityAtmos
+  parent: ClothingAtmosBelt
+  suffix: Filled
+  components:
+  - type: StorageFill
+    contents:
+        - id: CrowbarYellow
+        - id: Wrench
+        - id: Screwdriver
+        - id: Wirecutter
+        - id: Welder
+        - id: Multitool
+        - id: RPD
+        - id: HolofanProjector
