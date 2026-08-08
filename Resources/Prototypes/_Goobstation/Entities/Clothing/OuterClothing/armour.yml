@@ -530,6 +530,21 @@
     clothingPrototypes:
       head: ClothingHeadHatHoodSchemaMonk
       
+- type: entity
+  parent: ClothingOuterArmorTemplar
+  id: ClothingOuterPoloshirt
+  name: cursed poloshirt jean combo
+  description: A thrifted Raphael Lauren polo shirt cursed with the native cherokee power of an ancient patron deity. It must of not been washed for eons, still smelling faintly of space wind and unfiltered body odour
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/OuterClothing/Misc/cursed_polo.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/OuterClothing/Misc/cursed_polo.rsi
+  - type: Tag # goob edit
+    tags:
+    - Mask
+      
+      
 #senior security
 - type: entity
   parent: ClothingOuterArmorBase

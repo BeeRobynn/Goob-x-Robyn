@@ -46,3 +46,19 @@
     sprite: _Goobstation/Clothing/Neck/Misc/fellforitaward.rsi
   - type: Clothing
     sprite: _Goobstation/Clothing/Neck/Misc/fellforitaward.rsi
+    
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckMedallion
+  name: cursed medallion
+  description: A cursed artifact. Crafted in the dankest, darkest pit known to man, with Cryola Model Magic.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Neck/Misc/medallion.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Neck/Misc/medallion.rsi
+  - type: Summonable
+    specialItem: SpawnPointGhostYellowRat
+  - type: ClothingGrantComponent
+    component:
+    - type: ImaginaryFriend

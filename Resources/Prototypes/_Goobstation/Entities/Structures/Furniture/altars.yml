@@ -64,3 +64,23 @@
     rodProto: InquisitorChainSword
     effectProto: EffectSpark
     soundPath: /Audio/Effects/hallelujah.ogg
+    
+- type: entity
+  id: AltarGamestation
+  parent: AltarBase
+  name: game station altar
+  description: Altar of a native cherokee
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Structures/Furniture/Altar/Gods/convertaltar.rsi
+    state: gamestation
+  - type: Icon
+    sprite: _Goobstation/Structures/Furniture/Altar/Gods/convertaltar.rsi
+    state: gamestation
+  - type: Construction
+    graph: AltarsGraph
+    node: GamestationAltarNode
+  - type: AltarSource
+    rodProto: ClothingNeckMedallion
+    effectProto: EffectSpark
+    soundPath: /Audio/_Goobstation/Effects/pew.ogg

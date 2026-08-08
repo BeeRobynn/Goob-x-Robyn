@@ -114,11 +114,13 @@
       - id: ClothingNeckCloakInquisitor
 
 - type: entity
-  id: SpawnSchemaMonk
+  id: SpawnCursedPolo
   categories: [ HideSpawnMenu ]
-  name: monastic vestments
+  name: cursed poloshirt jean combo
   parent: SpawnSupplyEmpty
   components:
   - type: SpawnTableOnDespawn
-    table:
-      id: ClothingOuterSchemaMonk
+    table: !type:AllSelector
+      children:
+      - id: ClothingUniformOtherUnderwear
+      - id: ClothingOuterPoloshirt

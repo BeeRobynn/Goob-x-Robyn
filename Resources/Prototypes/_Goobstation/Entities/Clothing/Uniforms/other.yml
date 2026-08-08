@@ -1,0 +1,10 @@
+- type: entity
+  parent: [ClothingUniformBase,  ClothingUniformFoldableBase]
+  id: ClothingUniformOtherUnderwear
+  name: stained underwear
+  description: You swear that it's just spilled coffee
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Uniforms/Other/shitstained_underwear.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Uniforms/Other/shitstained_underwear.rsi

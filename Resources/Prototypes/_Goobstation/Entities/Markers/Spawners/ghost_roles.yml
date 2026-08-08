@@ -208,3 +208,26 @@
     - sprite: Objects/Tools/Toolboxes/toolbox_red.rsi
       state: icon
   - type: MaintsSpawnLocation
+  
+- type: entity
+  id: SpawnPointGhostYellowRat
+  name: ghost role spawn point
+  suffix: Yellow Rat
+  parent: MarkerBase
+  components:
+  - type: GhostRole
+    name: ghost-role-information-yellowrat-name
+    description: ghost-role-information-yellowrat-description
+    rules: ghost-role-information-familiar-rules
+    mindRoles:
+    - MindRoleGhostRoleFamiliar
+    raffle:
+      settings: short
+  - type: GhostRoleMobSpawner
+    prototype: MobYellowRat
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+      - state: green
+      - sprite: _Goobstation/Mobs/yellowrat.rsi
+        state: yellowrat

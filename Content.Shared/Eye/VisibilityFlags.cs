@@ -18,6 +18,7 @@ namespace Content.Shared.Eye
         CosmicCultMonument = 1 << 4, // DeltaV - DeltaV - Cosmic Cult
         EldritchInfluence = 1 << 5, // Goobstation
         EldritchInfluenceSpent = 1 << 6, // Goobstation
-        Admin = 1 << 7, // Reserved for admins in stealth mode and admin tools.
+        ImaginaryFriend = 1 << 7,
+        Admin = 1 << 8, // Reserved for admins in stealth mode and admin tools.
     }
 }

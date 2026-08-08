@@ -1,0 +1,52 @@
+- type: entity
+  name: mutated yellow rat
+  parent: SimpleMobBase
+  id: MobYellowRat
+  description: Your mutated yellow electric rat OC. You may or may not be in a romantic relationship with them
+  components:
+  - type: GhostRole
+    makeSentient: true
+    allowMovement: true
+    allowSpeech: true
+    name: ghost-role-information-yellowrat-name
+    description: ghost-role-information-yellowrat-description
+    rules: ghost-role-information-familiar-rules
+    mindRoles:
+    - MindRoleGhostRoleFamiliar
+  - type: GhostTakeoverAvailable
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 4
+    baseSprintSpeed: 6
+  - type: Sprite
+    sprite: _Goobstation/Mobs/yellowrat.rsi
+    state: yellowrat
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.2
+        density: 50
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: Damageable
+    damageContainer: Biological
+    damageModifierSet: Scale
+  - type: LanguageSpeaker # Einstein Engines - Language
+  - type: LanguageKnowledge # Einstein Engines - Language
+    speaks:
+    - TauCetiBasic # Replacement Accent will have to do for now until custom language.
+    understands:
+    - TauCetiBasic # Replacement Accent will have to do for now until custom language.
+  - type: Body
+    prototype: Animal
+    bodyType: Simple
+  - type: Climbing
+  - type: NameIdentifier
+    group: GenericNumber
+  - type: Perishable
+  - type: Visibility
+    layer: 128 # VisibilityFlags.EldritchInfluence.Spent

@@ -37,7 +37,7 @@ using Robust.Shared.Spawners;
 
 namespace Content.Goobstation.Server.Illusion;
 
-public sealed class IllusionSystem : EntitySystem
+        public sealed class IllusionSystem : EntitySystem
 {
     [Dependency] private readonly IRobustRandom _random = default!;
 
