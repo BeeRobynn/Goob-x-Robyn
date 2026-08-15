@@ -55,3 +55,28 @@
       Min: 1
       Max: 10
       PotencyDivisor: 10
+
+- type: seed
+  id: maintsShrooms
+  name: seeds-strange-berries-name
+  noun: seeds-noun-seeds
+  displayName: seeds-strange-berries-display-name
+  plantRsi: _Goobstation/Objects/Specific/Hydroponics/strange_berries.rsi
+  packetPrototype: FoodSpaceshroom
+  productPrototypes:
+    - FoodSpaceshroom
+  lifespan: 50
+  maturation: 6
+  production: 6
+  yield: 2
+  idealLight: 7
+  nutrientConsumption: 0.6
+  chemicals:
+    Artifexium:
+      Min: 2
+      Max: 5
+      PotencyDivisor: 30
+    Vitamin:
+      Min: 1
+      Max: 4
+      PotencyDivisor: 40

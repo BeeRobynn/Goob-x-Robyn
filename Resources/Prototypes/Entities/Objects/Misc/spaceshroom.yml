@@ -99,6 +99,8 @@
     thickness: 0.02
     area: 0.02
     conductivity: 0.43
+  - type: Seed
+    seedId: maintsShrooms
   - type: Tag
     tags:
     - Mushroom
