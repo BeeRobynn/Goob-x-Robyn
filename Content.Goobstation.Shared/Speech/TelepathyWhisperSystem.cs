@@ -1,4 +1,5 @@
-﻿using Content.Shared.Interaction;
+﻿using Content.Shared._Goobstation.Heretic.Components;
+using Content.Shared.Interaction;
 using Content.Shared.Mind.Components;
 using Content.Shared.Popups;
 using Content.Shared.Actions;
@@ -20,7 +21,7 @@ namespace Content.Goobstation.Shared.Speech
 
         private void OnTelepathInit(EntityUid uid, TelepathicComponent component, ComponentInit args)
         {
-            _actionSystem.AddAction(uid, ref component.ActionEntity, component.Action);
+            _actionSystem.AddAction(uid, ref component.Action, component.ActionEntity);
         }
 
         private void OnInteractHandEvent(EntityUid user, TelepathicComponent comp, InteractHandEvent args)
@@ -32,8 +33,12 @@ namespace Content.Goobstation.Shared.Speech
         {
             if (!HasComp<MindContainerComponent>(target))
             {
+                _popup.PopupEntity(Loc.GetString(comp.FailedPopup), user, PopupType.LargeCaution);
                 return;
             }
+
         }
+
+
     }
 }

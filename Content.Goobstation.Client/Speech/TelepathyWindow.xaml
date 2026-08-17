@@ -1,0 +1,10 @@
+﻿<speech:TelepathyWindow xmlns="https://spacestation14.io"
+               xmlns:speech="clr-namespace:Content.Goobstation.Client.Speech"
+               Resizable="False">
+
+    <BoxContainer Orientation="Vertical" SeparationOverride="4" MinWidth="150">
+        <Button Name="OptionsButton" Text="{Loc 'ui-escape-options'}" />
+        <Button Name="DisconnectButton" Text="{Loc 'ui-escape-disconnect'}" />
+        <Button Name="QuitButton" Text="{Loc 'ui-escape-quit'}" />
+    </BoxContainer>
+</speech:TelepathyWindow>

@@ -1,0 +1,12 @@
+- type: entity
+  parent: BaseAction
+  id: ActionTelepathyWhisper
+  name: Whisper Telepathically
+  description: Whisper a message telepathically to another person
+  components:
+  - type: Action
+    itemIconStyle: BigItem
+    priority: -20
+    useDelay: 1
+  - type: EntityTargetAction
+    event: !type:TelepathyWhisperEvent
